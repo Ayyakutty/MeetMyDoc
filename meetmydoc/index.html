@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <title>MeetMyDoc</title>
+    <style>
+        table {
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+        .edoc-logo {
+            font-size: 24px; /* Adjust as needed */
+            font-weight: bold; /* Adjust as needed */
+            color: #ffffff; /* White color */
+        }
+        .edoc-logo-sub {
+            font-size: 18px;
+            font-style: italic;
+            color: #ffffff; /* White color */
+        }
+        .navbar-links {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .navbar-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #ffffff; /* White color */
+        }
+        .login-btn, .signup-btn {
+            background-color: #007bff; /* Blue color */
+            border: none;
+            color: white;
+            padding: 12px 20px; /* Smaller padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; /* Smaller font size */
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px; /* Smaller border radius */
+            transition-duration: 0.4s;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .signup-btn {
+            background-color: #ffffff; /* White color */
+            color: #007bff; /* Blue color */
+        }
+        .login-btn:hover, .signup-btn:hover {
+            background-color: #0056b3; /* Darker blue color */
+        }
+    </style>   
+</head>
+<body>  
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <div class="edoc-logo-container">
+                        <font class="edoc-logo">MeetMyDoc </font>
+                        <font class="edoc-logo-sub">| Your Trusted Healthcare Companion</font>
+                    </div>
+                </td>
+                <td class="navbar-links" colspan="2">
+                   <a href="login.php" class="non-style-link"><button class="login-btn">LOGIN</button></a>
+                   <a href="signup.php" class="non-style-link"><button class="signup-btn">REGISTER</button></a>
+                </td>
+            </tr>            
+            <tr>
+                <td  colspan="3">
+                    <p class="heading-text">Enhance Your Health Journey.</p>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p class="sub-text2">Feeling under the weather today? No need to fret! Discover your online healthcare solution with MeetMyDoc. <br>
+                    Experience hassle-free appointment booking and enjoy our complimentary doctor channeling services.</p>
+                </td>
+            </tr>
+            <tr>                
+                <td colspan="3">
+                    <center>
+                        <a href="login.php">
+                            <input type="button" value="Book Appointment" class="login-btn btn-primary btn" style="padding: 10px 25px;">
+                        </a>
+                        <p class="sub-text2">Don't have an account? <a href="signup.php" class="signup-link">Sign up</a></p>
+                    </center>
+                </td>                
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+        </table>
+        <p class="sub-text2 footer-hashen">A Web Solution by ABI, BENI, KUTTY, PRABHA.</p>
+    </center>    
+    </div>
+</body>
+</html>
